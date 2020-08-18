@@ -2,7 +2,7 @@
 """
 Created on Sun May 26 16:34:42 2019
 
-@author: MEHMET OLGUN - 161220042
+@author: MEHMET OLGUN
 """
 
 from tkinter import *
@@ -64,7 +64,7 @@ class verimadenciligi():
         scatter1.get_tk_widget().pack(side=tk.LEFT, fill=tk.BOTH)  
     
 pencere = Tk()
-pencere.title(string = "Veri Madenciliği - Ödev 3 - Mehmet OLGUN 161220042")
+pencere.title(string = "Veri Madenciliği - Mehmet OLGUN")
 pencere.geometry("650x350")
 
 vm = verimadenciligi()
@@ -97,7 +97,7 @@ label4 = Label(pencere,text="MinPts :")
 label4.grid(row=4,column=0)
 txtMinPts = Entry(pencere,bd=1)
 txtMinPts.grid(row=4,column=1,columnspan=2,padx=2,pady=25)
-labelMy = Label(pencere,text="Mehmet Olgun - 161220042")
+labelMy = Label(pencere,text="Mehmet Olgun")
 labelMy.grid(row=5,column=3)
 
 
